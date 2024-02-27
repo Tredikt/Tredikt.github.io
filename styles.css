@@ -9,4 +9,22 @@
     background: url(photos/search.png) no-repeat 3px 1px;
     background-size: auto 90%;
     width: 500px;
+    margin-right: 3px;
+    /* background: darkgrey;  */
+}
+
+.searching {
+    height: 100%;
+}
+
+.filters {
+    /* border-radius: 90px; */
+    border-style: solid;
+    color: dimgray;
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    padding: 1px; /* Толщина рамки */
+    background: gainsboro; 
+
 }
