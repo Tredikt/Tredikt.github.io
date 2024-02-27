@@ -1,6 +1,13 @@
 
 
 .search {
-    border: 1;
-    border-color: darkgrey;
+    border-radius: 30px;
+    border-style: solid;
+    color: darkgrey;
+    padding: 5px 5px 5px 40px;
+    height: 20px;
+    background: url(photos/search.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+    
+    
 }
