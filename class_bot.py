@@ -1,5 +1,5 @@
 from aiogram import Bot, Dispatcher, executor
-from aiogram.types import InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, WebAppInfo
+from aiogram.types import InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, WebAppInfo, WebAppData
 from utils.db_api.database import DataBase
 
 from aiogram.types import Message
@@ -22,7 +22,7 @@ class MyBot:
         username = message.from_user.username
 
         markup = ReplyKeyboardMarkup()
-        markup.add(KeyboardButton("Открыть магазин", web_app=WebAppInfo(url="https://tredikt.github.io/")))
+        markup.add(KeyboardButton("Открыть магазин", web_app=WebAppInfo(url="https://Tredikt.github.io/")))
 
         await self.bot.send_message(
             chat_id=chat,

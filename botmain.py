@@ -1,5 +1,6 @@
 from aiogram import Dispatcher, Bot
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.types import InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, WebAppInfo, WebAppData
 
 from class_bot import MyBot
 from utils.db_api.database import DataBase
