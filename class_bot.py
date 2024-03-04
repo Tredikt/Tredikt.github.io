@@ -22,7 +22,7 @@ class MyBot:
         username = message.from_user.username
 
         markup = ReplyKeyboardMarkup()
-        markup.add(KeyboardButton("Открыть магазин", web_app=WebAppInfo(url="https://Tredikt.github.io/")))
+        markup.add(KeyboardButton("Открыть магазин", web_app=WebAppInfo(url="https://tredikt.github.io/")))
 
         await self.bot.send_message(
             chat_id=chat,

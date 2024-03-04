@@ -7,45 +7,53 @@
 </head>
 
 <body link="black" vlink="black">
+      <!-- {% block body %} -->
       <div>
           <table style="width: 100%;">
             <tr class="searching">
-                <td>
+                
                     <input class="search" placeholder="Я ищу..">
-                </td>
+                
 
-                <td>
-                    <img class="filters" id="filters" src="https://s3-alpha-sig.figma.com/img/c608/ddcd/292c10e3b39d0f43746811f32a246630?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q6sjj12ovkLLuNvCIGJaKH2ElIIV3Trdc4jIyfgbQg6EBnYR-WkAnRxzdulgrl4U6v49M-FNZwf5VSt88xIQBjc2jno34dYZgIX~oSLP8jhhmnAh2Jaahm401Py0iqvQJnUU7MTXYW5TYCigGUDnVVHBkzTOx74QA~EEfKdboMw5dkURItP6ksZEI76NPwmHzqFtUxgVddBSpLpwjE01Gvrr2G8ExLxpt-MEPfqwiOHZ1bA24hY57fBWQwtAfehDad2doSzbGD2c436r1pGHFAVhpYplmt2NnfdsPmz7zwtD2huODJT72yNGTudcaGwOfFcqv-~WVYJSyiWMtfrilA__">
-                </td>
+     
+                    <img class="filters" id="filters" align="right" style="margin-right: 15px;" src="https://s3-alpha-sig.figma.com/img/c608/ddcd/292c10e3b39d0f43746811f32a246630?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q6sjj12ovkLLuNvCIGJaKH2ElIIV3Trdc4jIyfgbQg6EBnYR-WkAnRxzdulgrl4U6v49M-FNZwf5VSt88xIQBjc2jno34dYZgIX~oSLP8jhhmnAh2Jaahm401Py0iqvQJnUU7MTXYW5TYCigGUDnVVHBkzTOx74QA~EEfKdboMw5dkURItP6ksZEI76NPwmHzqFtUxgVddBSpLpwjE01Gvrr2G8ExLxpt-MEPfqwiOHZ1bA24hY57fBWQwtAfehDad2doSzbGD2c436r1pGHFAVhpYplmt2NnfdsPmz7zwtD2huODJT72yNGTudcaGwOfFcqv-~WVYJSyiWMtfrilA__">
+                
             </tr>
         </table>
       </div>
 
       <div class="greybutton">
-        <table style="border-spacing: 70px, 10px;">
+        <table style="border-spacing: 70px, 10px;;">
             <tr>
-                <td >
-                    <b>Фильтры</b><br>
-                    Все товары
+                <td>
+                    <div style="margin-left: 10px;">
+                        <b>Фильтры</b><br>
+                        Все товары
+                    </div>
                 </td>
 
                 <td>
-                    <img class="filters" style=" transform: rotate(180deg);" src="https://s3-alpha-sig.figma.com/img/f8b3/0b27/78a5a88ccbe3d6fdbb4fccd5fe742bea?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TwwcukGShYmo0xg3WkNkItngPukAWl-fGd56yaHMVUcwc0ofqdrJpDChRycXGdJgFC7bcfpoAWTbWb17x2nQ7WL9e1K~JDBbKgC9IDirQR-4lz24K-wtXRibvJQX8vr9dnMxHSmeeqWzzpt3jbfbqfGp74pe3-cFzVvcHGj0ZLkYO5-i~IqvwjqAKKRKMM4diqasy-TH5SUeaPeQis9ei8RRVNUUt8nmC79ssYVrpe0iiF636t~NRBfrh4zHeWnQS3p196uiFLAeocP9zAkVuApcaOyajCDyMv6tH6ChyADizlh~lW1YSy-LnJqMtyypK55n1c-VSYC2~fL4IsUOXw__" alt="">
+                    <img class="filters" align="right" style="margin-right: 15px; transform: rotate(180deg);" src="https://s3-alpha-sig.figma.com/img/f8b3/0b27/78a5a88ccbe3d6fdbb4fccd5fe742bea?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TwwcukGShYmo0xg3WkNkItngPukAWl-fGd56yaHMVUcwc0ofqdrJpDChRycXGdJgFC7bcfpoAWTbWb17x2nQ7WL9e1K~JDBbKgC9IDirQR-4lz24K-wtXRibvJQX8vr9dnMxHSmeeqWzzpt3jbfbqfGp74pe3-cFzVvcHGj0ZLkYO5-i~IqvwjqAKKRKMM4diqasy-TH5SUeaPeQis9ei8RRVNUUt8nmC79ssYVrpe0iiF636t~NRBfrh4zHeWnQS3p196uiFLAeocP9zAkVuApcaOyajCDyMv6tH6ChyADizlh~lW1YSy-LnJqMtyypK55n1c-VSYC2~fL4IsUOXw__" alt="">
                 </td>
             </tr>
         </table>
       </div>
 
-    <div class="tyre_card" style="float: left; width: 46%; height: auto; margin-left: 10px; padding: 20px;">
+    <div class="tyre_card" style="float: left; width: 35%; height: auto; margin-left: 10px; padding: 20px;">
         <img class="card_img" style="width: 100%; height: auto;" src="photos/tires.png" alt="шины">
         <div>
             <p style="font-size: larger;"><b>11 000  ₽</b></p>
             <b>Michelin Primacy HP</b><br>
             Шины 225/50R17
         </div>
+        <a class="link" href="">
+            <div class="add_button">
+                <b>Добавить +</b>
+            </div>
+        </a>
         
     </div>
-    <div class="tyre_card" style="float: left; width: 46%; height: auto; margin-left: 10px; padding: 20px;">
+    <div class="tyre_card" style="float: left; width: 35%; height: auto; margin-left: 10px; padding: 20px;">
         <img  class="card_img" style="width: 100%; height: auto;" src="photos/шины1.jpg" alt="шины">
         <div>
             <p style="font-size: larger;"><b>11 000  ₽</b></p>
@@ -60,6 +68,7 @@
      
         
     </div>
+      {% endblock %}
 </body>
 </html>
 

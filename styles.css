@@ -8,8 +8,12 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    
   }
+
+td {
+    border-style: solid;
+    border-color: green;
+}
 
 .div {
     min-width: 100%;
@@ -18,7 +22,8 @@ table {
 }
 
 .search {
-    width: 95%;
+    margin-top: 5px;
+    width: 89%;
     border-radius: 30px;
     border-style: solid;
     border-spacing: 20px;
@@ -40,8 +45,10 @@ table {
     color: dimgray;
     width: 50px;
     height: 50px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     padding: 1px; /* Толщина рамки */
+    right: 1px;
+    margin-top: 7px;
     /* background: gainsboro;  */
 
 }
