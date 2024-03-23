@@ -1,13 +1,15 @@
 body {
 	background: #E5E5E5;
-	width: 290px;
-	height: auto;
+	width: 	100%;
+	height: auto + 20px;
+	position: relative;
+	justify-content: center
   }
 
 .frame { 
 	background-color:rgba(255, 255, 255, 1);
 	position:relative;
-	width: 90%;
+	width: 255px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -234,6 +236,11 @@ body {
 	background-size:cover;
 }
 
+.bin {
+	position: fixed; 
+	bottom: 0px;
+}
+
 .bin_background { 
 	box-sizing: border-box;
 	padding-left: 8px;
@@ -241,7 +248,7 @@ body {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color:rgba(234.29998755455017, 234.29998755455017, 234.29998755455017, 1);
-	width:266px;
+	width:255px;
 	height:40px;
 	position:relative;
 	bottom: 1px;
@@ -249,7 +256,7 @@ body {
 
 .blue_bin { 
 	background-color:rgba(0, 61.00000016391277, 255, 1);
-	width:250px;
+	width:240px;
 	height:30px;
 	position:relative;
 	text-align: center;
