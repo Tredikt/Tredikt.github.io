@@ -7,7 +7,11 @@ body {
 .frame { 
 	background-color:rgba(255, 255, 255, 1);
 	position:relative;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
 .product_card { 
 	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
 	width:120px;
