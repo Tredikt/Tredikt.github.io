@@ -6,6 +6,19 @@ body {
 	justify-content: center
   }
 
+input {
+	margin-top: 7px;
+	margin-left: 4px;
+	width: 252px;
+	height: 36px;
+	font-size: 10px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+
+
 .frame { 
 	background-color:rgba(255, 255, 255, 1);
 	position:relative;
@@ -17,8 +30,8 @@ body {
 
 .product_card { 
 	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:120px;
-	height:150px;
+	width:140px;
+	height:170px;
 	margin-top: 5px;
 	margin-left: 4px;
 	border-top-left-radius:8px;
@@ -37,8 +50,8 @@ body {
 
 .search { 
 	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:212px;
-	height:24px;
+	width:252px;
+	height:36px;
 	position:relative;
 	display: flex;
 	margin-top: 7px;
@@ -52,8 +65,8 @@ body {
 
 .filters_block { 
 	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:24px;
-	height:24px;
+	width:36px;
+	height:36px;
 	position:relative;
 	display: flex;
 	margin-top: 7px;
@@ -68,8 +81,8 @@ body {
 
 .search_photo { 
 	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:20px;
-	height:20px;
+	width:30px;
+	height:30px;
 	position:relative;
 	padding-top: 3px;
 	padding-left: 6px;
@@ -83,19 +96,20 @@ body {
 .search_name { 
 	color:rgba(0, 0, 0, 0.6000000238418579);
 	width:52px;
-	height:10px;
+	height:20px;
 	position:relative;
 	padding-left: 10px;
-	padding-top: 7px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	font-family:Inter;
 	text-align:left;
-	font-size:8px;
+	font-size:12px;
 	letter-spacing:0;
 }
 .filters { 
 	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:240px;
-	height:27px;
+	width:288px;
+	height:36px;
 	position:relative;
 	display: flex;
 	justify-content: space-between;
@@ -115,7 +129,7 @@ body {
 	padding-top: 1px;
 	font-family:Inter;
 	text-align:left;
-	font-size:7px;
+	font-size:10px;
 	letter-spacing:0;
 
 }
@@ -128,7 +142,7 @@ body {
 	left:5px;
 	font-family:Inter;
 	text-align:left;
-	font-size:7px;
+	font-size:8px;
 	letter-spacing:0;
 }
 .price { 
@@ -140,7 +154,7 @@ body {
 	margin-top: 5px;
 	font-family:Inter;
 	text-align:left;
-	font-size:9px;
+	font-size:11px;
 	letter-spacing:0;
 }
 .classification { 
@@ -152,13 +166,13 @@ body {
 	padding-top:1px;
 	font-family:Inter;
 	text-align:left;
-	font-size:6px;
+	font-size:7px;
 	letter-spacing:0;
 }
 
 .product_image {
 	position: relative;
-	width: 110px;
+	width: 130px;
 	height: auto;
 	top: 5px;
 	left: 5px;
@@ -176,21 +190,21 @@ body {
 	width:52px;
 	height:7px;
 	position:relative;
-	padding-top: 1px;
+	padding-top: 2px;
 	left: 7px;
 	font-family:Inter;
 	text-align:left;
-	font-size:6px;
+	font-size:8px;
 	letter-spacing:0;
 }
 
 .open_filters { 
 	transform: rotate(180deg);
-	width:11px;
-	height:11px;
+	width:15px;
+	height:15px;
 	position:relative;
 	padding-left:5px;
-	padding-bottom: 7px;
+	padding-bottom: 8px;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -201,8 +215,8 @@ body {
 
 .button_background { 
 	background-color:rgba(255, 255, 255, 1);
-	width:109px;
-	height:16px;
+	width:130px;
+	height:23px;
 	position:relative;
 	left:4px;
 	top:5;
@@ -220,18 +234,19 @@ body {
 	position:relative;
 	font-family:Inter;
 	text-align:center;
-	font-size:7px;
+	font-size:9px;
 	letter-spacing:0;
 	display: inline-block;
-	margin-top: 2.5px;
+	margin-top: 3px;
 }
 
 .filters_photo { 
-	width:16px;
-	height:16px;
+	width:24px;
+	height:24px;
 	position:relative;
 	padding: 3px;
-	padding-left: 4px;
+	padding-left: 6px;
+	padding-top: 4px;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -243,21 +258,21 @@ body {
 
 .bin_background { 
 	box-sizing: border-box;
-	padding-left: 8px;
 	padding-right: 8px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color:rgba(234.29998755455017, 234.29998755455017, 234.29998755455017, 1);
-	width:255px;
-	height:40px;
+	width:300px;
+	height:50px;
 	position:relative;
 	bottom: 1px;
 }
 
 .blue_bin { 
 	background-color:rgba(0, 61.00000016391277, 255, 1);
-	width:240px;
-	height:30px;
+	width:280px;
+	height:40px;
+	margin-left: 10px;
 	position:relative;
 	text-align: center;
 	border-top-left-radius:5px;
@@ -274,6 +289,6 @@ body {
 	top: 9px;
 	font-family:Inter;
 	text-align:center;
-	font-size:10px;
+	font-size:15px;
 	letter-spacing:0;
 }
