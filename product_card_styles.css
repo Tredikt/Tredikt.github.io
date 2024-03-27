@@ -3,10 +3,52 @@ body {background: #E5E5E5;}
 .frame { 
 	background-color:rgba(255, 255, 255, 1);
 	position:relative;
-	width: 266px;
+	width: 300px;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.bin {
+	position: fixed; 
+	bottom: 0px;
+}
+
+.bin_background { 
+	box-sizing: border-box;
+	padding-right: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color:rgba(234.29998755455017, 234.29998755455017, 234.29998755455017, 1);
+	width:300px;
+	height:50px;
+	position:relative;
+	bottom: 1px;
+}
+
+.blue_bin { 
+	background-color:rgba(0, 61.00000016391277, 255, 1);
+	width:280px;
+	height:40px;
+	margin-left: 10px;
+	position:relative;
+	text-align: center;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.bin_text { 
+	color:rgba(255, 255, 255, 1);
+	width:40px;
+	height:12px;
+	position:relative;
+	top: 9px;
+	font-family:Inter;
+	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
 }
 
 .e29_2 { 
@@ -20,35 +62,35 @@ body {background: #E5E5E5;}
 	width:52px;
 	height:10px;
 	position:absolute;
-	left:13px;
+	left:20px;
 	top:10px;
 	font-family:Inter;
 	text-align:left;
-	font-size:8px;
+	font-size:12px;
 	letter-spacing:0;
 }
 .e29_4 { 
 	color:rgba(0, 0, 0, 1);
-	width:139px;
+	width:170px;
 	height:10px;
 	position:absolute;
-	left:63px;
+	left:70px;
 	top:5px;
 	font-family:Inter;
 	text-align:center;
-	font-size:8px;
+	font-size:12px;
 	letter-spacing:0;
 }
 .e29_5 { 
 	color:rgba(0, 0, 0, 0.6000000238418579);
 	width:139px;
-	height:7px;
+	height:12px;
 	position:absolute;
-	left:63px;
-	top:15px;
+	left:90px;
+	top:20px;
 	font-family:Inter;
 	text-align:center;
-	font-size:6px;
+	font-size:10px;
 	letter-spacing:0;
 }
 .e29_6 { 
@@ -86,7 +128,7 @@ body {background: #E5E5E5;}
 	height:38px;
 	position:absolute;
 	left:13px;
-	top:223px;
+	top:270px;
 	font-family:Inter;
 	text-align:left;
 	font-size:16px;
@@ -98,10 +140,10 @@ body {background: #E5E5E5;}
 	height:15px;
 	position:absolute;
 	left:13px;
-	bottom: 60px;
+	bottom: 80px;
 	font-family:Inter;
 	text-align:left;
-	font-size:12px;
+	font-size:16px;
 	letter-spacing:0;
 }
 .e29_11 { 
@@ -110,10 +152,10 @@ body {background: #E5E5E5;}
 	height:16px;
 	position:absolute;
 	left:13px;
-	top:265px;
+	top:310px;
 	font-family:Inter;
 	text-align:left;
-	font-size:13px;
+	font-size:14px;
 	letter-spacing:0;
 }
 .e29_12 { 
@@ -122,16 +164,16 @@ body {background: #E5E5E5;}
 	height:68px;
 	position:absolute;
 	left:13px;
-	top:292px;
+	top:340px;
 	font-family:Inter;
 	text-align:left;
-	font-size:10px;
+	font-size:14px;
 	letter-spacing:0;
 }
 .e29_13 { 
 	transform: rotate(2.196181036466194e-15deg);
-	width:11px;
-	height:11px;
+	width:15px;
+	height:15px;
 	position:absolute;
 	left:2px;
 	top:10px;
@@ -141,22 +183,22 @@ body {background: #E5E5E5;}
 }
 .blue_button { 
 	background-color:rgba(0, 61.00000016391277, 255, 1);
-	width:109px;
-	height:22px;
+	width:130px;
+	height:30px;
 	position:absolute;
 	right: 10px;
-	bottom: 55px;
+	bottom: 70px;
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px;
 }
 .e29_15 { 
-	width:241px;
-	height:181px;
+	width:280px;
+	height:auto;
 	position:absolute;
 	left:13px;
-	top:31px;
+	top:50px;
 	border-top-left-radius:10px;
 	border-top-right-radius:10px;
 	border-bottom-left-radius:10px;
@@ -179,11 +221,11 @@ body {background: #E5E5E5;}
 	width:87px;
 	height:7px;
 	position:absolute;
-	left:36px;
+	left:30px;
 	top:7px;
 	font-family:Inter;
 	text-align:left;
-	font-size:6px;
+	font-size:12px;
 	letter-spacing:0;
 }
 .e29_18 { 
@@ -231,44 +273,3 @@ body {background: #E5E5E5;}
 	letter-spacing:0;
 }
 
-.bin {
-	position: absolute; 
-	bottom: 0px;
-}
-
-.bin_background { 
-	box-sizing: border-box;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	background-color:rgba(234.29998755455017, 234.29998755455017, 234.29998755455017, 1);
-	width:266px;
-	height:40px;
-	position:relative;
-	bottom: 1px;
-}
-
-.blue_bin { 
-	background-color:rgba(0, 61.00000016391277, 255, 1);
-	width:250px;
-	height:30px;
-	position:relative;
-	text-align: center;
-	border-top-left-radius:5px;
-	border-top-right-radius:5px;
-	border-bottom-left-radius:5px;
-	border-bottom-right-radius:5px;
-}
-
-.bin_text { 
-	color:rgba(255, 255, 255, 1);
-	width:50px;
-	height:12px;
-	position:relative;
-	top: 9px;
-	font-family:Inter;
-	text-align:center;
-	font-size:10px;
-	letter-spacing:0;
-}

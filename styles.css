@@ -27,6 +27,47 @@ input {
 	margin-right: auto;
 }
 
+.bin {
+	position: fixed; 
+	bottom: 0px;
+}
+
+.bin_background { 
+	box-sizing: border-box;
+	padding-right: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color:rgba(234.29998755455017, 234.29998755455017, 234.29998755455017, 1);
+	width:300px;
+	height:50px;
+	position:relative;
+	bottom: 1px;
+}
+
+.blue_bin { 
+	background-color:rgba(0, 61.00000016391277, 255, 1);
+	width:280px;
+	height:40px;
+	margin-left: 10px;
+	position:relative;
+	text-align: center;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.bin_text { 
+	color:rgba(255, 255, 255, 1);
+	width:40px;
+	height:12px;
+	position:relative;
+	top: 9px;
+	font-family:Inter;
+	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
 
 .product_card { 
 	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
@@ -251,44 +292,3 @@ input {
 	background-size:cover;
 }
 
-.bin {
-	position: fixed; 
-	bottom: 0px;
-}
-
-.bin_background { 
-	box-sizing: border-box;
-	padding-right: 8px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	background-color:rgba(234.29998755455017, 234.29998755455017, 234.29998755455017, 1);
-	width:300px;
-	height:50px;
-	position:relative;
-	bottom: 1px;
-}
-
-.blue_bin { 
-	background-color:rgba(0, 61.00000016391277, 255, 1);
-	width:280px;
-	height:40px;
-	margin-left: 10px;
-	position:relative;
-	text-align: center;
-	border-top-left-radius:5px;
-	border-top-right-radius:5px;
-	border-bottom-left-radius:5px;
-	border-bottom-right-radius:5px;
-}
-
-.bin_text { 
-	color:rgba(255, 255, 255, 1);
-	width:40px;
-	height:12px;
-	position:relative;
-	top: 9px;
-	font-family:Inter;
-	text-align:center;
-	font-size:15px;
-	letter-spacing:0;
-}
